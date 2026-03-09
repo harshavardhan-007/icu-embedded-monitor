@@ -95,7 +95,7 @@ arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -nostdlib -nostartfiles \
 ================================================
 
   +--------------------------------------------+
-  | Bed 7  |  Meena Devi
+  | Bed 7  |  Pateint Name
   +--------------------------------------------+
     Heart Rate (bpm)   : 59.1 bpm    [!! ABNORMAL]
     Blood Pressure     : 127.9 mmHg  [!! ABNORMAL]
@@ -113,12 +113,6 @@ arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -nostdlib -nostartfiles \
 - **Linker Script** — custom FLASH/SRAM memory layout for ARM Cortex-M3
 - **No stdlib** — integer math, string handling, RNG all implemented manually
 - **Struct-based design** — `Patient` struct models real sensor data
-
----
-
-## 📝 Resume Line
-
-> *"Developed a bare-metal ICU patient vital signs monitor in Embedded C targeting ARM Cortex-M3 (LM3S6965), compiled with arm-none-eabi-gcc. Implemented custom startup code, vector table, linker script, and direct UART register communication with zero standard library dependency. Emulated on QEMU. Inspired by nurse workload challenges in Indian public hospitals."*
 
 ---
 
