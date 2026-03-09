@@ -95,7 +95,7 @@ arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -nostdlib -nostartfiles \
 ================================================
 
   +--------------------------------------------+
-  | Bed 7  |  Pateint Name
+  | Bed 7  |  Patient Name
   +--------------------------------------------+
     Heart Rate (bpm)   : 59.1 bpm    [!! ABNORMAL]
     Blood Pressure     : 127.9 mmHg  [!! ABNORMAL]
